@@ -1,0 +1,75 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+
+.main-container h1, h2 {
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+    margin-bottom: 1rem;
+}
+
+
+
+.add-container {
+    background: rgb(230, 241, 248);
+    border-radius: 2rem;
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.add-container input {
+    border: none !important;
+    border-radius: 2rem;
+}
+
+.add-container button {
+    background: rgb(43, 99, 255);
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.add-container button:hover {
+    background: rgb(0, 63, 179);
+}
+
+.table {
+    max-width: 600px;
+    width: 100%;
+    background: rgb(230, 241, 248);
+    border-radius: 2rem;
+}
+
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    border-top: none;
+   border-top: none;
+}
+
+
+
+
+
+
+.table button {
+    background: none;
+    border: none;
+    padding: 0 0.2rem;
+}
+
+.table button i {
+    font-size: 1.5rem;
+}
+
+.table .btn-delete {
+    color: red;
+}
+
+.table .btn-edit {
+    color: rgb(255, 157, 0);
+}
